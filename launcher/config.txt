@@ -1,0 +1,2 @@
+[settings]
+directory = /home/deren/.local/share/Steam/steamapps/common/ImperatorRome/launcher/
