@@ -75,7 +75,7 @@ def main(argv):
         else:
             #parse config file
             config = configparser.ConfigParser()
-            config.readfp(open(r'config.txt'))
+            config.read_file(open(r'config.txt'))
             data = config.get('settings', 'directory')
             
             validate_and_run(data)
